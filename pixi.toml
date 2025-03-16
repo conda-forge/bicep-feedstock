@@ -20,10 +20,6 @@ inspect-all = "inspect_artifacts --all-packages"
 build = "rattler-build build --recipe recipe"
 "build-linux_64_" = "rattler-build build --recipe recipe -m .ci_support/linux_64_.yaml"
 "inspect-linux_64_" = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_.yaml"
-"build-osx_64_" = "rattler-build build --recipe recipe -m .ci_support/osx_64_.yaml"
-"inspect-osx_64_" = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_.yaml"
-"build-win_64_" = "rattler-build build --recipe recipe -m .ci_support/win_64_.yaml"
-"inspect-win_64_" = "inspect_artifacts --recipe-dir recipe -m .ci_support/win_64_.yaml"
 
 [feature.smithy.dependencies]
 conda-smithy = "*"
